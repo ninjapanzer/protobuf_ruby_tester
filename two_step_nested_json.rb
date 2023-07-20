@@ -24,7 +24,7 @@ nested_message = message.data.map do |d|
     Tester::Proto::Data,
     d.to_json,
     ignore_unknown_fields: true,
-    )
+  )
 end
 
 puts "extracted nested json"
