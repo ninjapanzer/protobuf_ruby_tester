@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package tester.proto;
+
+message Data {
+    string name = 1;
+    string type = 2;
+    string value = 3;
+}

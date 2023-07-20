@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/struct.proto";
+
+package tester.proto;
+
+message NestedJSON {
+  string id = 1;
+  repeated google.protobuf.Struct data = 2;
+}

@@ -1,0 +1,10 @@
+{
+  "id": "thing",
+  "data": [
+    {
+        "name": "thing",
+        "type": "thing",
+        "value": "thing"
+    }
+  ]
+}
