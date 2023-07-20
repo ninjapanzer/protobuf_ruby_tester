@@ -16,6 +16,7 @@ message = Google::Protobuf.decode_json(
   ignore_unknown_fields: true,
 )
 
+puts "decoded data object"
 puts message.data
 
 nested_message = message.data.map do |d|
@@ -26,4 +27,7 @@ nested_message = message.data.map do |d|
     )
 end
 
+puts "extracted nested json"
 puts nested_message.to_json
+puts "first json"
+puts nested_message.first.to_json
